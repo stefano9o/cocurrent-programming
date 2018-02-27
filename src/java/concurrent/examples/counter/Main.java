@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int nThread = 10;
 
-        MyInteger counter = new MyInteger(0);
+        MyInteger counter = new MyInteger(100);
         IncrementerThread it = new IncrementerThread(counter);
         DecrementerThread dt = new DecrementerThread(counter);
 

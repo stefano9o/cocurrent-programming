@@ -2,7 +2,7 @@ package java.concurrent.examples.counter;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class IncrementerThread implements Runnable{
-    private MyInteger counter;
+    private final MyInteger counter;
 
     IncrementerThread(MyInteger counter){
         this.counter = counter;

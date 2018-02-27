@@ -3,7 +3,7 @@ package java.concurrent.examples.counter;
 public class MyInteger {
     private Integer value;
 
-    MyInteger(int value){
+    MyInteger(Integer value){
         this.value = value;
     }
 
